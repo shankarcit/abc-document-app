@@ -86,5 +86,5 @@ workflows:
           filters:
             branches:
               only: develop            
-          cluster-name: k8s-sqa-abc-demo
+          cluster-name: k8s-dev-abc-demo
           aws-region: ap-northeast-1          
