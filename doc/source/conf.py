@@ -31,7 +31,7 @@ napoleon_google_docstring = False
 autodoc_default_options = {"autosummary": True}
 
 
-# -- Options for HTML output -------------------------------------------------
+# -- Options for HTML output ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
 html_theme = 'bizstyle'
