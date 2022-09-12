@@ -85,6 +85,6 @@ workflows:
             - aws-ecr/build-and-push-image       
           filters:
             branches:
-              only: circleci-project-setup             
+              only: develop            
           cluster-name: shan-tempdev-k8s-09101237
           aws-region: ap-northeast-1          
