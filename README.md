@@ -52,6 +52,7 @@ I had a challenge with sphinx build. It builds a html with dead links and docstr
 I need to work with python developers. Since I have htmls generated, I proceeded with building application with broken links.
 
 ## Architecture:
+https://github.com/shankarcit/abc-document-app/blob/develop/Images/architecture.jpg
 
 Programming Language: Python
 Build tool: Circle CI
