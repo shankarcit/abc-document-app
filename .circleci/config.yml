@@ -69,7 +69,7 @@ workflows:
           repo: ecr-shankar-tool-box/demo-app
           repo-scan-on-push: true
           skip-when-tags-exist: false
-          tag: '${CIRCLE_BUILD_NUM}'
+          tag: '${CIRCLE_WORKFLOW_ID}'
   
       - create-deployment:
           requires:
