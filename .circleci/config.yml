@@ -45,7 +45,7 @@ jobs:
       - kubernetes/create-or-update-resource:
           get-rollout-status: true
           resource-file-path: ~/deployment/configs/deployment/demo-app-deployment.yaml
-          resource-name: deployment/demoapp-deployment
+          resource-name: deployment/demoapp
 
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows
@@ -69,7 +69,7 @@ workflows:
           repo: ecr-shankar-tool-box/demo-app
           repo-scan-on-push: true
           skip-when-tags-exist: false
-          tag: '${CIRCLE_WORKFLOW_ID}'
+          tag: 'latest'
   
       - create-deployment:
           requires:
