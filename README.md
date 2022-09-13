@@ -67,3 +67,8 @@ All AWS resources are built only by Terraform
 Creating a PR to develop branch will deploy to Dev cluster
 Creating a PR to sqa branch will deploy to sqa cluster
 
+IACs for the infrastructure is in below repos.
+https://github.com/shankarcit/terraform-s3-backend-
+https://github.com/shankarcit/terraform-dynamo-backend
+https://github.com/shankarcit/terraform-eks
+https://github.com/shankarcit/eks-deploy
