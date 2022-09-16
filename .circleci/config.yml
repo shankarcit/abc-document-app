@@ -38,7 +38,7 @@ jobs:
           name: Build doc
           command: |
             git clone https://github.com/shankarcit/eks-deploy.git ~/deployment/configs/
-            sed -i 's/latest/${CIRCLE_WORKFLOW_ID}/g' input.txt
+            sed -i 's/latest/${CIRCLE_WORKFLOW_ID}/g' ~/deployment/configs/deployment/demo-app-deployment.yaml
       - aws-eks/update-kubeconfig-with-authenticator:
           cluster-name: << parameters.cluster-name >>
           aws-region: << parameters.aws-region >>
