@@ -21,6 +21,9 @@ jobs:
           command: |
             cd doc
             make html
+      - store_artifacts:
+            path: doc/build/html
+            destination: html             
   create-deployment:
     docker:
       - image: 'cimg/python:3.10'
