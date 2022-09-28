@@ -6,9 +6,9 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'paidy-demo'
-copyright = '2022, shankar'
-author = 'shankar'
+project = 'paidy-demo-final'
+copyright = '2022, shankar-krishnkumar'
+author = 'shankar-krishnakumar'
 release = '1'
 
 import os
