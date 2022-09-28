@@ -6,10 +6,10 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'superai'
+project = 'paidy-demo'
 copyright = '2022, shankar'
 author = 'shankar'
-release = '0.1'
+release = '1'
 
 import os
 import sys
@@ -31,7 +31,7 @@ napoleon_google_docstring = False
 autodoc_default_options = {"autosummary": True}
 
 
-# -- Options for HTML output ---------------------------------------------------
+# -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
 html_theme = 'bizstyle'

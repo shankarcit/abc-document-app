@@ -1,5 +1,5 @@
-superai
-=======
+src
+===
 
 .. toctree::
    :maxdepth: 4
