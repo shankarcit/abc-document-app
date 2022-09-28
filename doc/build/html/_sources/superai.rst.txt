@@ -7,7 +7,7 @@ Submodules
 superai.paidy\_super\_ai module
 -------------------------------
 
-.. automodule:: paidy_super_ai
+.. automodule:: superai.paidy_super_ai
    :members:
    :undoc-members:
    :show-inheritance:
@@ -15,7 +15,7 @@ superai.paidy\_super\_ai module
 superai.robot module
 --------------------
 
-.. automodule:: robot
+.. automodule:: superai.robot
    :members:
    :undoc-members:
    :show-inheritance:
