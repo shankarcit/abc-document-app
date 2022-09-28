@@ -83,7 +83,7 @@ workflows:
             - aws-ecr/build-and-push-image
           filters:
             branches:
-              only: main
+              only: sqa
 #Make it variable later                                 
           cluster-name: k8s-sqa-abc-demo
           aws-region: ap-northeast-1
